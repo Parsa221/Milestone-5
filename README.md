@@ -26,7 +26,7 @@ How are the 10 most frequent financial words in *Great Expectations* and *The Gr
 ### Word extraction using Python
 1. Write a Python program to:
    - Find the most frequent financial words in both books.
-   - Pick 10 words from each book that are used about the same number of times.
+   - Pick 10 words from each book that are used about almost the same number of times in both books. 
 2. Use Hugging Face to check the sentiment (positive, negative, or neutral) of sentences with these words.
 3. Compare the results between the two books.
 
