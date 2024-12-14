@@ -1,57 +1,45 @@
-# Sentiment Analysis of Financial Terminology in Literature
+# Sentiment Analysis of Financial Terms in Literature
 
 ## General Information
-This project examines the evolution of financial terminology in English literature by analyzing *Great Expectations* by Charles Dickens (19th century) and *The Great Gatsby* by F. Scott Fitzgerald (20th century). The study uses Natural Language Processing (NLP) techniques to extract the most frequently used financial terms in these texts and applies sentiment analysis (via Hugging Face models) to evaluate how these terms are contextually framed. The aim is to explore how societal attitudes toward wealth, poverty, and finance differ across these two eras.
+This project looks at how financial words are used in two famous books: *Great Expectations* by Charles Dickens (19th century) and *The Great Gatsby* by F. Scott Fitzgerald (20th century). We want to see how these words are connected to feelings like positive, negative, or neutral emotions. By doing this, we can learn how people in those times thought about money, wealth, and finance.
 
 ## Background Information
-Numerous studies have examined the role of language in literature and its reflection of societal values. Two notable studies include:
+Some studies have looked at how language shows feelings and ideas about society:
+1. **Jockers and Mimno (2013)**: They studied themes in 19th-century books using computer tools. They found that language often reflected class and money-related issues.
+2. **Elkins (2019)**: This study used sentiment analysis to find out how Victorian writers talked about wealth and morality.
 
-1. **Jockers, M. L., & Mimno, D. (2013)**: This study explored the thematic structure of 19th-century novels using computational text analysis. Their findings revealed distinct patterns of language use tied to class and economic themes.
-2. **Elkins, K. (2019)**: This research investigated sentiment analysis in Victorian literature, highlighting how language reflected societal attitudes toward wealth and morality.
-
-By building on these works, this project focuses on the sentiment and frequency of financial terminology across literary periods.
+Our project builds on these ideas, focusing on financial words and their emotions in two different time periods.
 
 ## Research Question and Hypotheses
 ### Research Question
-How do the 20 most frequently occurring financial terms differ in sentiment across *Great Expectations* by Charles Dickens and *The Great Gatsby* by F. Scott Fitzgerald, and what does this reveal about societal attitudes toward wealth and finance in the 19th and 20th centuries?
+How are the 10 most frequent financial words in *Great Expectations* and *The Great Gatsby* connected to emotions, and what does this show about how people thought about money in the 19th and 20th centuries?
 
 ### Hypotheses
-1. Financial terms in *Great Expectations* will predominantly exhibit negative or moralistic sentiment, reflecting the 19th-century focus on poverty, debt, and social mobility.
-2. Financial terms in *The Great Gatsby* will display a mix of positive and neutral sentiment, emphasizing materialism, ambition, and the allure of wealth typical of the Jazz Age.
+1. In *Great Expectations*, financial words will mostly have negative emotions, showing worry about poverty, debt, and class struggles.
+2. In *The Great Gatsby*, financial words will have a mix of positive and neutral emotions, showing excitement about wealth and the American Dream.
 
 ## Method
 ### Dataset
 - **Texts Used**:
   - *Great Expectations* by Charles Dickens (Project Gutenberg: [Link](https://www.gutenberg.org/ebooks/1400))
   - *The Great Gatsby* by F. Scott Fitzgerald (Project Gutenberg: [Link](https://www.gutenberg.org/ebooks/64317))
-  
-### Preprocessing
-1. Download and clean the texts by removing metadata (e.g., Project Gutenberg headers/footers).
-2. Tokenize the text into words and sentences.
-3. Normalize the text (e.g., lowercase conversion, lemmatization).
-
-### Sampling Method
-1. **Financial Terms Extraction**:
-   - Identify the 20 most frequent financial terms in each book using word frequency analysis.
-2. **Context Extraction**:
-   - Extract all sentences containing these financial terms for sentiment analysis.
-
-### Sentiment Analysis
-- Use Hugging Face's pre-trained sentiment analysis model (`distilbert-base-uncased-finetuned-sst-2-english`) to classify sentences as positive, negative, or neutral.
-
-### Analysis Plan
-1. Compute the sentiment distribution (positive, negative, neutral) for each term in both books.
-2. Compare the sentiment scores across the two books to identify differences in framing.
+### Word extraction using Python
+1. Write a Python program to:
+   - Find the most frequent financial words in both books.
+   - Pick 10 words from each book that are used about the same number of times.
+2. Use Hugging Face to check the sentiment (positive, negative, or neutral) of sentences with these words.
+3. Compare the results between the two books.
 
 ## Expected Outcomes
-This project aims to uncover:
-1. The thematic and emotional framing of financial terminology in each literary era.
-2. Differences in societal attitudes toward wealth, poverty, and finance between the 19th and 20th centuries.
+This study will show:
+1. How financial words are emotionally framed in the two books.
+2. Differences in how people in the 19th and 20th centuries felt about wealth and money.
 
-## Tools and Libraries
-- Python (NLTK, Hugging Face Transformers, Matplotlib)
-- Jupyter Notebook for analysis
-- GitHub for version control and documentation
+## Tools
+- Python
+- Hugging Face Transformers
+- Pycharm
+- GitHub
 
 ## References
 1. Jockers, M. L., & Mimno, D. (2013). *Significant themes in 19th-century novels: A computational approach*. Digital Scholarship in the Humanities.
