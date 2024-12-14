@@ -1,14 +1,14 @@
 # Sentiment Analysis of Financial Terms in Literature
 
 ## General Information
-This project looks at how financial words are used in two famous books: *Great Expectations* by Charles Dickens (19th century) and *The Great Gatsby* by F. Scott Fitzgerald (20th century). We want to see how these words are connected to feelings like positive, negative, or neutral emotions. By doing this, we can learn how people in those times thought about money, wealth, and finance.
+This project looks at how financial words are used in two famous books: *Great Expectations* by Charles Dickens (19th century) and *The Great Gatsby* by F. Scott Fitzgerald (20th century). I want to see how these words are connected to feelings like positive, negative, or neutral emotions. By doing this, we can learn how people in those times thought about money, wealth, and finance.
 
 ## Background Information
 Some studies have looked at how language shows feelings and ideas about society:
 1. **Jockers and Mimno (2013)**: They studied themes in 19th-century books using computer tools. They found that language often reflected class and money-related issues.
 2. **Elkins (2019)**: This study used sentiment analysis to find out how Victorian writers talked about wealth and morality.
 
-Our project builds on these ideas, focusing on financial words and their emotions in two different time periods.
+My project builds on these ideas, focusing on financial words and their emotions in two different time periods.
 
 ## Research Question and Hypotheses
 ### Research Question
