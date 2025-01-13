@@ -6,7 +6,7 @@ This project looks at how financial words are used in two famous books: *Great E
 ## Background Information
 Some studies have looked at how language shows feelings and ideas about society:
 1. **Jockers and Mimno (2013)**: They studied themes in 19th-century books using computer tools. They found that language often reflected class and money-related issues.
-2. **Elkins (2019)**: This study used sentiment analysis to find out how Victorian writers talked about wealth and morality.
+2. **Buechel, S., A. Buffone, B. Slaff, L. Ungar, and J. Sedoc (2018).**: conducted sentiment analysis on historical texts, demonstrating how emotional language reflects social and economic conditions over time.
 
 My project builds on these ideas, focusing on financial words and their emotions in two different time periods.
 
