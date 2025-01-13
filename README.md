@@ -26,7 +26,7 @@ How are the 10 most frequent financial words in *Great Expectations* and *The Gr
 ### Word extraction using Python
 1. Write a Python program to:
    - Find the most frequent financial words in both books.
-   - Pick 10 words from each book that are used about almost the same number of times in both books. 
+   - Pick 10 most frequent financial term from each book. 
 2. Use Hugging Face to check the sentiment (positive, negative, or neutral) of sentences with these words.
 3. Compare the results between the two books.
 
@@ -43,4 +43,4 @@ This study will show:
 
 ## References
 1. Jockers, M. L., & Mimno, D. (2013). *Significant themes in 19th-century novels: A computational approach*. Digital Scholarship in the Humanities.
-2. Elkins, K. (2019). *Sentiment analysis of Victorian novels: Tracing attitudes toward wealth and morality*. Literary and Linguistic Computing.
+2. Buechel, S., A. Buffone, B. Slaff, L. Ungar, and J. Sedoc (2018). Modeling empathy and dis-tress in reaction to news stories. arXiv preprint arXiv:1808.10399.
